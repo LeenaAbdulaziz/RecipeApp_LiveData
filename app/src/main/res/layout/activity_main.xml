@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/teal_700"
+        android:hint="Enter Title"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Add new request" />
+
+    <EditText
+        android:id="@+id/edtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:layout_margin="15dp"
+        android:textColor="@color/teal_700"
+        android:hint="Enter Title"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edname"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_margin="15dp"
+        android:textColor="@color/teal_700"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Author Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edinge"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_margin="15dp"
+        android:textColor="@color/teal_700"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Ingredents"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edins"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_margin="15dp"
+        android:textColor="@color/teal_700"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Instruction"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content"
+        android:text="save receipe" />
+
+    <Button
+        android:id="@+id/btnview"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:onClick="viewreceipe"
+        android:text="View receipes" />
+
+
+</LinearLayout>
